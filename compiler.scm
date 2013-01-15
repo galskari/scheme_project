@@ -657,19 +657,3 @@
     ((null? (cdr list))
 	`(,(f (car list) tp?)))
 	(else `(,(f (car list) #f) ,@(myMap f tp? (cdr list)))))))
-<<<<<<< HEAD
-=======
-
-
-	  
-(define test
-  (lambda (e)
-    (annotate-tc
-     (pe->lex-pe
-      (parse e)))))
-      
-      
-;gal is the man
-      
-;Aviram Leder is testing the shit man!
->>>>>>> gall is the man
